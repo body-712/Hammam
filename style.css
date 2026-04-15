@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,8 +18,8 @@ a {
 }
 
 .contaner {
-    width: 960px;
-    height: 690px;
+    width: 90%;
+    margin: auto;
     background-position: center;
     background-image: linear-gradient(to right, #01022da9 30%, #00000086),
         url(photos/WhatsApp\ Image\ 2026-04-13\ at\ 8.45.04\ PM.jpeg);
@@ -26,8 +27,9 @@ a {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .contaner:hover {
